@@ -22,11 +22,12 @@ output "dictionary" {
 }
 
 variable "env" {}
+variable "config" {}
 
 output "environment" {
   value = var.env
 }
 
 output "sam_env" {
-  value = var.env
+  value = var.config
 }

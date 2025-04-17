@@ -1,1 +1,1 @@
-env = "stagging"
+config = "stagging"
