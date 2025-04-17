@@ -9,3 +9,14 @@ output "value1" {
 output "value2" {
   value = "value of test variable: ${var.test}"
 }
+
+variable "dict" {
+  default = {
+    number  = 100
+    name = "naveen"
+  }
+}
+
+output "dictionary" {
+  value = "value of: ${var.dict["number"]}::::::${var.dict[name]}"
+}
