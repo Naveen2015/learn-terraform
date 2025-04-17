@@ -26,3 +26,7 @@ variable "env" {}
 output "environment" {
   value = var.env
 }
+
+output "sam_env" {
+  value = var.env
+}
