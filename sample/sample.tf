@@ -18,5 +18,5 @@ variable "dict" {
 }
 
 output "dictionary" {
-  value = "value of: ${var.dict["number"]}"
+  value = "value of: ${var.dict["number"]} :::::: ${var.dict["name"]}"
 }
