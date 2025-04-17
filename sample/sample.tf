@@ -20,3 +20,9 @@ variable "dict" {
 output "dictionary" {
   value = "value of: ${var.dict["number"]} :::::: ${var.dict["name"]}"
 }
+
+variable "env" {}
+
+output "environment" {
+  value = var.env
+}
